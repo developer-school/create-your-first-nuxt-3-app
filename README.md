@@ -1,32 +1,5 @@
-# Nuxt 3 Minimal Starter
+# Create your first Nuxt 3 app with Tailwind
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnuxt%2Fstarter%2Ftree%2Fv3-vercel)
+Nuxt 3 is a Vue.js framework that makes it easy to build modern web applications. This repository and tutorial will teach you how to create a Nuxt 3 app with Tailwind.
 
-
-We recommend to look at the [documentation](http://v3.nuxtjs.org).
-
-## Setup
-
-Make sure to install the dependencies
-
-```bash
-yarn install
-```
-
-## Development
-
-Start the development server on http://localhost:3000
-
-```bash
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-yarn build
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
+Check out the article on [https://developer.school](https://developer.school) by clicking [here](https://developer.school/tutorials/create-your-first-nuxt-3-app-with-tailwind)
