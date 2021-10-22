@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col justify-center w-full h-screen max-w-3xl p-4 mx-auto space-y-2 "
+    class="flex flex-col justify-center w-full h-screen max-w-3xl p-4 mx-auto space-y-2 bg-white "
   >
     <div>
       <h1 class="text-2xl">About</h1>
