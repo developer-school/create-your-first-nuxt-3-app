@@ -24,5 +24,13 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 
-export default defineComponent({});
+export default defineComponent({
+  setup() {
+    const counter = ref(0);
+
+    return {
+      counter,
+    };
+  },
+});
 </script>
