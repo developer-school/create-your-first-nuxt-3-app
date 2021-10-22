@@ -1,31 +1,18 @@
 <template>
-  <div class="flex flex-col items-center justify-center h-full space-y-4 text-xl">
-    <p class="">Here's a counter:</p>
-    <div class="flex items-center justify-center">
-      
-      <button @click="counter++" class="px-4 py-2 font-bold text-white bg-green-500 rounded hover:bg-green-700">
-        +
-      </button>
-      <span class="mx-2">{{ counter }}</span>
-      <button @click="counter--" class="px-4 py-2 font-bold text-white bg-green-500 rounded hover:bg-green-700">
-        -
-      </button>
-    </div>
-  </div>
+  <Counter />
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent } from "vue";
 
 export default defineComponent({
-  layout: 'custom',
+  layout: "custom",
   setup() {
-    const counter = ref(0)
+    const counter = ref(0);
 
     return {
-      counter
-    }
-  }
-})
+      counter,
+    };
+  },
+});
 </script>
-
